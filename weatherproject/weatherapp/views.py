@@ -12,16 +12,16 @@ def home(request):
         city = 'indore'
 
     # Base URL to fetch weather data for the given city (you need to append your API key)
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=7753feda56aebc001c6bbf6a85232653'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=your-app-id-here'
     
     # Parameters to request temperature in metric units (Celsius)
     PARAMS = {'units': 'metric'}
 
     # Your Google Custom Search API Key (keep it secret)
-    API_KEY = 'AIzaSyAJjSI5Ln2mGxh6hX5XP-TIWZRGlpms5q0'
+    API_KEY = 'specify-api-key-here'
 
     # Your Google Custom Search Engine ID
-    SEARCH_ENGINE_ID = '702a09c80d0234f95'  
+    SEARCH_ENGINE_ID = 'specify-search-engine-id-here'  
 
     # Prepare query to fetch city-related image from Google Images
     query = city 
